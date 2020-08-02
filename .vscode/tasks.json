@@ -1,0 +1,9 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "cmp",
+        "command": "cmd", // Could be any other shell command
+        "args": ["/c git add . && git commit -m \"Updated theme.css\" && git push"],
+        "type": "shell"
+    }]
+}

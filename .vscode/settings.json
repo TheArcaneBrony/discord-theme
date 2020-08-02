@@ -1,4 +1,5 @@
 {
     "awooga.originalColorCustomizations": {},
-    "workbench.colorCustomizations": {}
+    "workbench.colorCustomizations": {},
+    "powershell.codeFormatting.addWhitespaceAroundPipe": true
 }
