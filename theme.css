@@ -262,3 +262,46 @@ div[id="message-actions"]:hover {
 .flexChild-faoVW3 > div:nth-of-type(2) > .selectable-2GY4I1:hover {
   filter: blur(0px);
 }
+
+
+/* compact settings */
+/* - small dividers - */
+.marginBottom20-32qID7 {
+    margin-bottom: 5px;
+}
+.dividerDefault-3rvLe- {
+    margin-top: 5px;
+}
+/* - large dividers - */
+.marginBottom40-2vIwTv {
+    margin-bottom: 10px;
+}
+.marginTop40-i-78cZ {
+    margin-top: 10px;
+}
+/* - compact games list - */
+.game-1ipmAa {
+    position: relative;
+    padding: 5px 0;
+}
+/* - compact notification settings - */
+.notificationsSound-27jFSh {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/* - compact account settings - */
+.marginTop60-3PGbtK {
+    margin-top: 20px;
+}
+/* - compact billing list - */
+.summaryInfo-2QFKUg {
+    cursor: pointer;
+    padding: 5px;
+}
+/* - compact billing tab - */
+.codeRedemptionRedirect-1wVR4b {
+    margin-top: 5px;
+}
+.paymentHistory-2FXzro {
+    margin-top: 10px;
+}
