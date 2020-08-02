@@ -305,3 +305,43 @@ div[id="message-actions"]:hover {
 .paymentHistory-2FXzro {
     margin-top: 10px;
 }
+
+/* - monogenize chat box - */
+.channelTextArea-rNsIhG {
+    margin-bottom: 0px;
+}
+.form-2fGMdU {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.scrollableContainer-2NUZem {
+    border-radius: 0px;
+}
+.attachButton-2WznTc {
+    height: 52px;
+    padding: 10px 16px;
+    top: 0;
+}
+.fontSize16Padding-3Wk7zP {
+    padding-bottom: 0px;
+    padding-top: 15px;
+}
+.buttons-3JBrkn {
+    height: 52px;   
+}
+.emojiButton-3uL3Aw {
+    max-height: 52px;
+}
+
+/* remove nitro button */
+#private-channels-2 {
+    display: none;
+}
+/* remove server notice */
+.channelNotice-1-XFjC {
+    display: none;
+}
+/* remove mute and help button from header */
+div[aria-label="Mute channel misc-support"], div[aria-label="Help"] {
+    display: none;
+}
