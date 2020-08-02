@@ -1,0 +1,264 @@
+.wrapper-3EGhDO {
+    background-color: var(--background-secondary);
+    border-radius: 25px;
+    padding: 0px;
+}
+
+.colorable-1bkp8v.white-3GPOIp, .colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T {
+    color: currentColor;
+}
+
+.colorable-1bkp8v.primary-3NQg8g,
+.colorable-1bkp8v.primary-3NQg8g.active-1QRrIS, .colorable-1bkp8v.primary-3NQg8g:hover, 
+.colorable-1bkp8v.white-3GPOIp,
+.centerButton-3CaNcJ,
+.colorable-1bkp8v.white-3GPOIp.active-1QRrIS, .colorable-1bkp8v.white-3GPOIp:hover,
+.colorable-1bkp8v.red-33-Lnk {
+    background: none !important;
+}
+
+div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyCenter-3D2jYp alignCenter-1dQNNs noWrap-3jynv6"][style="flex: 1 1 auto;"]{
+  background-color: var(--background-secondary);
+  border-radius: 30px;
+}
+
+.userPopout-3XzG_A {
+    border-radius: 10px;
+    box-shadow: var(--elevation-high);
+    border: none;
+    background: none;
+    backdrop-filter: blur(10px);
+}
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background: #00000066;
+}
+.headerPlaying-j0WQBV {
+    background: #7289daa8;
+}
+.headerStreaming-2FjmGz {
+    background: #593695a8;
+}
+.theme-dark .headerNormal-T_seeN {
+    background: #000000a8;
+}
+.headerSpotify-zpWxgT {
+    background: #1db954a8;
+}
+.textarea-2r0oV8:focus {
+    background: #0000008b;
+    border-radius: 5px;
+}
+.input-cIJ7To {
+    background: #00000044;
+    border: none;
+    border-radius: 5px;
+    transition: ease-in-out 0.1s;
+}
+.input-cIJ7To:focus {
+    background: #0000008b;
+}
+.buttonsWrapper-2eYbM0 .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+    border: none;
+    background: #1db954a8;
+    border-radius: 5px;
+}
+.buttonsWrapper-2eYbM0 .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
+    background: #1db954ff;
+}
+.customStatus-1bh2V9 img {
+    border-radius: 3px;
+}
+.headerStreaming-2FjmGz .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+    background: #593695a8;
+}
+.headerStreaming-2FjmGz .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
+    background: #593695ff;
+}
+.headerPlaying-j0WQBV .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+    background: #7289daa8;
+}
+.headerPlaying-j0WQBV .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
+    background: #7289daff;
+}
+
+.backdrop-1wrmKB {
+    background: none !important;
+    backdrop-filter: blur(10px) brightness(0.5);
+    opacity: 1 !important;
+}
+
+.chatContent-a9vAAp::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: -50%;
+    width: 0%;
+    height: 0%;
+    border-radius: 50%;
+    width: 7.5px;
+    background-color: #69b6d5;
+    animation: mykey 1.5s ease-in-out;
+}
+@keyframes mykey{
+    100% {
+        width: 200%;
+        height: 200%;
+        top: -50%;
+        opacity: 0;
+    }
+}
+
+div[id="message-actions"] {
+  min-width: 0px;
+  width: 57px;
+  transition: 1s;
+}
+div[id="message-actions"]:hover {
+  min-width: 0px;
+  width: 200px;
+  transition: 0.5s;
+}
+
+.protip-YaFfgO {
+    display: none;
+}
+
+.titleChecked-2wg0pd{
+    visibility: hidden;
+}
+.titleChecked-2wg0pd::before {
+  visibility: visible;
+    content: "I live on the edge";
+}
+
+/* user popout - credit to : https://github.com/A-User-s-Discord-Themes/Couve*/
+/*role pills*/
+.role-2irmRk{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border: none;
+    padding: 5px;
+}
+.roleCircle-3xAZ1j::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: inherit;
+    opacity: .2;
+    z-index: -1;
+    pointer-events: none;
+}
+/*Bottom*/
+.footer-1fjuF6{
+    border-top: none;
+}
+
+:root .headerStreaming-2FjmGz{
+    background: #593695;
+}
+
+.emojiItemDisabled-1FvFuF:hover{
+    filter: grayscale(0);
+}
+
+.userPopout-3XzG_A{
+  width: 450px;
+}
+
+.none-2Eo-qx::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.none-2Eo-qx::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+.none-2Eo-qx::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.none-2Eo-qx::-webkit-scrollbar-track {
+  border-color: transparent;
+  background-color: transparent;
+  border: 2px solid transparent;
+}
+
+.none-2Eo-qx:hover::-webkit-scrollbar-thumb, .none-2Eo-qx:hover::-webkit-scrollbar-track {
+  visibility: visible;
+}
+
+.none-2Eo-qx::-webkit-scrollbar-thumb, .none-2Eo-qx::-webkit-scrollbar-track {
+  visibility: hidden;
+}
+
+/* Hide Mute Channel in toolbar */
+.toolbar-1t6TWx > div:nth-child(1) {
+  display: none;
+}
+
+.topic-TCb_qw {
+  white-space: initial;
+  line-height: 18px;
+  max-height:36px;
+}
+
+.wrapper-2aW0bm > div > .button-1ZiXG9 {
+    font-weight: bold;
+    font-size: larger;
+    padding: 0px !important;
+    margin-top: -.3rem !important;
+}
+.wrapper-2aW0bm > div > .button-1ZiXG9:after {
+    content: "@"
+}
+
+.wrapper-2aW0bm > div > .button-1ZiXG9 > svg {
+  display: none !important;
+}
+
+.chatContent-a9vAAp::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: -25%;
+    left: -70%;
+    width: 100%;
+    height: 150%;
+    border-radius: 50%;
+    background-color: #69b6d5;
+    z-index: 99999;
+    transform: translateZ(0) scale(.25, .25);
+    animation: mykey 1.5s ease-in-out;
+}
+@keyframes mykey{
+    100% {
+        transform: scale(5,5);
+        opacity: 0; 
+    }
+}
+
+.powercord-spotify .spotify-seek-bar-progress {
+    background-image: linear-gradient(to right, rgb(101, 214, 66), rgb(224, 195, 66), rgb(241, 45, 45));
+}
+
+.tutorialContainer-SGrQ1h ~ .listItem-2P_4kh {
+  display: none;
+}
+
+.flexChild-faoVW3 > div:nth-of-type(2) > .selectable-2GY4I1 {
+  filter: blur(5px);
+  transition: filter 0.5s;
+}
+
+.flexChild-faoVW3 > div:nth-of-type(2) > .selectable-2GY4I1:hover {
+  filter: blur(0px);
+}
