@@ -318,7 +318,7 @@ div[id="message-actions"]:hover {
     border-radius: 0px;
 }
 .attachButton-2WznTc {
-    height: 52px;
+    height: 53px;
     padding: 10px 16px;
     top: 0;
 }
@@ -327,10 +327,10 @@ div[id="message-actions"]:hover {
     padding-top: 15px;
 }
 .buttons-3JBrkn {
-    height: 52px;   
+    height: 53px;   
 }
 .emojiButton-3uL3Aw {
-    max-height: 52px;
+    max-height: 53px;
 }
 
 /* remove nitro button */
@@ -342,11 +342,52 @@ div[id="message-actions"]:hover {
     display: none;
 }
 /* remove mute and help button from header */
-div[aria-label="Mute channel misc-support"] {
+div[aria-label="Mute channel misc-support"], .toolbar-1t6TWx > .anchor-3Z-8Bb {
     display: none;
 }
 
 /* hide activity feed */
 .nowPlayingColumn-2sl4cE {
     display: none;
+}
+
+.typing-2GQL18 .base-gE7OpD {
+    
+}
+
+/*better quickswitcher*/
+a[href='https://support.discord.com/hc/en-us/articles/115000070311'] {
+    display: none;
+}
+/*  -- hide input box -- */
+input[placeholder="Where would you like to go?"] {
+    height: 0px !important;
+}
+#app-mount > div:nth-child(7) > div.modal-3c3bKg > div > div > div > div.scroller-zPkAnE.auto-Ge5KZx.scrollerBase-289Jih > div > div:nth-child(1) {
+    display: none;
+}
+#app-mount > div:nth-child(7) > div.modal-3c3bKg > div > div > div > div.scroller-zPkAnE.auto-Ge5KZx.scrollerBase-289Jih > div > div:nth-child(2) > div > div {
+    margin: auto;
+}
+
+
+div[class="scroller-zPkAnE auto-Ge5KZx scrollerBase-289Jih"] {
+    max-height: 85vh;
+}
+#app-mount > div:nth-child(7) > div.modal-3c3bKg > div > div {
+    height: auto;
+}
+
+/*fix mass ping popup*/
+.everyonePopout-nEbJY3 {
+    width: 390px;
+}
+
+
+/*fix powercord discord badge*/
+.powercord-badge-cutie img {
+    width: 0%;
+    height: 0%;
+    background-image: url("https://powercord.dev/dist/0c6744dac479b5509821.svg");
+    padding: 50%;
 }
