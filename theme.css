@@ -579,4 +579,24 @@ winButton-iRh8-Z > svg {
  .userPopout-3XzG_A .activityUserPopout-2yItg2:hover .allactivities-right {
      margin-left: 8px;
 }
- 
+
+/* hide user options when not hovering */ 
+.panels-j1Uci_ > * > .flex-1O1GKY {
+    display: none !important;
+}
+.container-3baos1:hover > .flex-1O1GKY {
+    display: flex !important;
+}
+
+/* compact discord language settings */
+.item-3eFBNF {
+    padding: 8px;
+}
+.item-3eFBNF > .powercord-text {
+    display: none !important;
+}
+
+/* small experiments menu, might break shit */
+.marginTop20-3TxNs6 {
+    margin-top: 8px;
+}
