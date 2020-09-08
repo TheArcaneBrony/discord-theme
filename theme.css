@@ -600,3 +600,23 @@ winButton-iRh8-Z > svg {
 .marginTop20-3TxNs6 {
     margin-top: 8px;
 }
+
+/* compact server settings */ 
+.divider-3wNib3 {
+    margin-top: 4px;
+    padding-top: 4px;
+}
+.switchItem-2hKKKK {
+    margin-bottom: 4px;
+}
+
+/* compact emoji settings */
+.emojiRow-zIc7ZX {
+    position: relative;
+    height: 48px;
+}
+/* compact integrations */ 
+.card-o7rAq- {
+    padding: 5px 16px;
+    margin-bottom: 4px;
+}
