@@ -495,7 +495,7 @@ winButton-iRh8-Z > svg {
    background-color: var(--seperator-color);
    position: absolute;
    left: -36px;
-   top: 29px;
+   top: 12px;
    margin-left: 0px;
 }
 
@@ -619,4 +619,58 @@ winButton-iRh8-Z > svg {
 .card-o7rAq- {
     padding: 5px 16px;
     margin-bottom: 4px;
+}
+/*fix typing indicator*/
+.typing-2GQL18 {
+    bottom: 55px;
+}
+
+/*fix emoji suggestions not being scrollable*/
+.autocompleteInner-zh20B_ {
+    overflow-y: auto;
+    max-height: 75vh;
+}
+
+/*compacter chat*/
+.compact-T3H92H.wrapper-2a6GCs, .cozy-3raOZG.wrapper-2a6GCs {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.group-spacing-16 .groupStart-23k01U {
+    margin-top: 8px;
+}
+.group-spacing-16 .divider-3_HH5L.beforeGroup-1rH1F0 {
+    top: .2rem;
+}
+.searchBar-3dMhjb {
+    width: 75px;
+}
+
+/* compact channels */
+.containerDefault-3GGEv_, .containerDragAfter-3TEhpe, .containerDragBefore-3Dzc5x, .containerUserOver-1Tcb7l {
+    padding-top: 0px;
+}
+#channels > div {
+    height: fit-content;
+}
+
+/* loading screen changes */
+.tip-2cgoli {
+    line-height: 16px;
+}
+.container-16j22k video {
+    visibility: visible;
+}
+.platform-win .container-16j22k {
+    opacity: 0 !important;
+}
+
+/* hide gift button */
+button[aria-label="Send a gift"] {
+    display: none;
+}
+
+/* compact memberlist */
+.membersGroup-v9BXpm {
+    padding-top: 8px;
 }
