@@ -2,7 +2,9 @@
     "awooga.originalColorCustomizations": {
         "editor.background": "#400000"
     },
-    "workbench.colorCustomizations": {},
+    "workbench.colorCustomizations": {
+        "editor.background": "#402000"
+    },
     "powershell.codeFormatting.addWhitespaceAroundPipe": true,
     "esversion": 6
 }

@@ -743,3 +743,423 @@ svg.slider-TkfMQL svg {
    fill: #43B581;
 }
 /** 764911805150789642 */
+/* see raw messages */
+
+div[class*=contents] code.inline::before{
+    content: "`";
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-rendering: optimizeLegibility;
+    background: transparent;
+    color: grey;
+  }
+  div[class*=contents] code.inline::after{
+    content: "`";
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-rendering: optimizeLegibility;
+    background: transparent;
+    color: grey;
+  }
+  div[class*=contents] div[class*=blockquoteContainer]::before{
+    content: "> ";
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+  }
+  div[class*=contents] strong::before{
+    content: "**";
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+  }
+  div[class*=contents] strong::after{
+    content: "**";
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+  }
+  div[class*=contents] em::before{
+    content: "*";
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+  }
+  div[class*=contents] em::after{
+    content: "*";
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+  }
+  div[class*=contents] u::before{
+    content: "__";
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+  }
+  div[class*=contents] u::after{
+    content: "__";
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+  }
+  div[class*=contents] pre::before{
+    content: "`‌``";
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+  }
+  div[class*=contents] pre::after{
+    content: "`‌``";
+    color: grey;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+/* end see raw messages */
+
+/* more snippets */
+
+/**
+ * Snippet from #css-snippets applied the Oct 19, 2020 at 10:02:11 AM
+ * Created by ezist#7571 (632082248954282014)
+ * Snippet ID: 766361519453110282
+ */
+ .profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:not(:first-child) .colorHeaderPrimary-26Jzh- {
+    filter: blur(5px);
+    transition: filter 0.5s
+}
+.profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:not(:first-child):hover .colorHeaderPrimary-26Jzh- {
+    filter: blur(0px);
+}
+/** 766361519453110282 */
+
+/**
+ * Snippet from #css-snippets applied the Oct 19, 2020 at 10:02:28 AM
+ * Created by ezist#7571 (632082248954282014)
+ * Snippet ID: 766363580374319114
+ */
+.profile-1eT9hT .details-2fkb7l .colorHeaderSecondary-3Sp3Ft {
+    filter: blur(5px);
+    transition: filter 0.5s;
+}
+.profile-1eT9hT .details-2fkb7l .colorHeaderSecondary-3Sp3Ft:hover {filter: blur(0px);}
+.profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:first-child .colorHeaderSecondary-3Sp3Ft {
+    filter: blur(5px);
+    transition: filter 0.5s;
+}
+.profile-1eT9hT + .fieldList-21DyL8 > .field-1HUseB:first-child:hover .colorHeaderSecondary-3Sp3Ft {filter: blur(0px);}
+/** 766363580374319114 */
+
+/**
+ * Snippet from #css-snippets applied the Oct 19, 2020 at 10:02:31 AM
+ * Created by ezist#7571 (632082248954282014)
+ * Snippet ID: 766364753034739772
+ */
+.headerTag-2pZJzA > .username-2b1r56 + span {
+    filter: blur(5px);
+    transition: filter 0.5s;
+}
+.headerTag-2pZJzA > .username-2b1r56 + span:hover {filter: blur(0px);}
+/** 766364753034739772 */
+
+/**
+ * Snippet from #css-snippets applied the Oct 19, 2020 at 10:02:47 AM
+ * Created by creatable#0123 (597905003717459968)
+ * Snippet ID: 766426597179785246
+ */
+div[role="img"][aria-label*="Sticker"], img[alt*="Sticker"] {
+  display: none;
+}
+
+.assetWrapper-3GNt0z {
+    height: auto !important;
+    width: auto !important;
+}
+
+.clickableSticker-3HmpgV::after {
+  content: "A sticker was hidden.";
+  color: gray;
+  font-weight: 500;
+}
+
+#sticker-picker-tab {
+    display: none;
+}
+
+button[aria-label="Open sticker picker"] {
+    display: none;
+}
+/** 766426597179785246 */
+
+/**
+ * Snippet from #css-snippets applied the Oct 19, 2020 at 10:02:58 AM
+ * Created by Tropical#4355 (254362351170617345)
+ * Snippet ID: 766438640313958470
+ */
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style] {
+    height:auto !important;
+    width:auto !important;
+}
+
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style]:active {
+    height:160px !important;
+    width:160px !important;
+}
+
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style]:after {
+    content:'1 blocked sticker - Show Sticker';
+    color:var(--text-link);
+}
+
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style]:active:after {
+    content:none;
+}
+
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style]:hover:after {
+    text-decoration:underline;
+}
+
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style] .lottieCanvas-1W7L-f,
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style] .pngImage-33yLRP {
+    display:none;
+}
+
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style]:active .lottieCanvas-1W7L-f,
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style]:active .pngImage-33yLRP {
+    display:block;
+}
+/** 766438640313958470 */
+
+/**
+ * Snippet from #css-snippets applied the Oct 19, 2020 at 10:03:17 AM
+ * Created by Ein#3092 (307356893053976576)
+ * Snippet ID: 766517832640233502
+ */
+/** Blurple discord join/explore buttons**/
+.circleIconButton-jET_ig svg path{
+  fill: #7289da;
+}
+.circleIconButton-jET_ig.selected-ugP_am{
+  background-color: #7289da;
+}
+.circleIconButton-jET_ig.selected-ugP_am svg path{
+  fill: white;
+}
+/** 766517832640233502 */
+
+/**
+ * Snippet from #css-snippets applied the Oct 19, 2020 at 10:03:43 AM
+ * Created by Bowser65#0001 (94762492923748352)
+ * Snippet ID: 767078348731056158
+ */
+/* Show Discord, even when you're offline */
+.container-16j22k {
+  background: transparent;
+  pointer-events: none;
+}
+.container-16j22k * {
+  display: none;
+}
+.container-16j22k::before {
+  content: 'You\'ve gone offline';
+  display: block;
+  bottom: 24px;
+  right: 24px;
+  position: absolute;
+  padding: 8px 16px;
+  background-color: #f04747;
+  border-radius: 4px;
+  color: #fff;
+}
+/** 767078348731056158 */
+
+/**
+ * Snippet from #css-snippets applied the Oct 19, 2020 at 10:03:55 AM
+ * Created by ロビガン#1634 (315526915828219906)
+ * Snippet ID: 767644968592080906
+ */
+/* Updated version of the Hide Nitro Gift and GIF buttons with support for Stickers button */
+.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.noFocus-2C7BQj .button-3AYNKb.button-318s1X {display: none;}
+/** 767644968592080906 */
+
+/**
+ * Snippet from #css-snippets applied the Nov 21, 2020 at 5:03:38 PM
+ * Created by LuckFire#4800 (399416615742996480)
+ * Snippet ID: 769995148213223444
+ */
+.minimum-28Z35l > .root-217Brm,
+.video--KPXCT > .root-217Brm {
+   background: url("https://cdn.discordapp.com/attachments/738968109288914976/769986893944979496/image0.jpg") center/100% no-repeat;
+}
+.minimum-28Z35l > .root-217Brm::before,
+.video--KPXCT > .root-217Brm::before {
+   content: "";
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background: rgb(0, 0, 0, 0.65);
+   backdrop-filter: blur(3px);
+}
+.videoControls-24w7Xp > .topControls-KKImPZ > div > .headerWrapper-3NUKsd > .title-3qD0b-,
+.videoControls-24w7Xp > .topControls-KKImPZ > div > .headerWrapper-3NUKsd > .transparent-2ZlE3R  {
+   box-shadow: none !important;
+}
+/** 769995148213223444 */
+
+/**
+ * Snippet from #css-snippets applied the Nov 21, 2020 at 5:06:02 PM
+ * Created by botato#6883 (440990343899643943)
+ * Snippet ID: 775167473422958622
+ */
+.topic-TCb_qw .wrapper-3o7UcG {
+  display: none;
+}
+/** 775167473422958622 */
+
+/**
+ * Snippet from #css-snippets applied the Nov 21, 2020 at 5:07:35 PM
+ * Created by Tropical#4355 (254362351170617345)
+ * Snippet ID: 776283983864004638
+ */
+.peopleColumn-29fq28 .peopleList-3c4jOR,
+.peopleColumn-29fq28 div[role="list"] {
+    height:100%;
+}
+/** 776283983864004638 */
+
+/**
+ * Snippet from #css-snippets applied the Nov 21, 2020 at 5:08:10 PM
+ * Created by Creation's#0001 (209830981060788225)
+ * Snippet ID: 777246112184270849
+ */
+.userInfoSectionHeader-CBvMDh,
+.note-QfFU8y {
+   display: none;
+}
+
+.infoScroller-3EYYns>.userInfoSection-2acyCx:first-of-type {
+   margin-top: -45px;
+}
+
+.topSectionNormal-2-vo2m {
+   z-index: 10;
+}
+/** 777246112184270849 */
+
+/**
+ * Snippet from #css-snippets applied the Nov 21, 2020 at 5:10:55 PM
+ * Created by Winston#0441 (156990761366192128)
+ * Snippet ID: 778797785456574474
+ */
+.item-26Dhrx {border-radius:5px;color:var(--interactive-active)!important;background:#0000!important}
+.item-26Dhrx .title-3BE6m5 {font-weight:500}
+.item-26Dhrx[aria-checked="false"] .title-3BE6m5 {color:var(--radio-bar-accent-color)}
+.item-26Dhrx[aria-checked="true"] {color:#fff!important}
+.theme-dark {--checkbox-fill:#72767d}
+.theme-light {--checkbox-fill:#b9bbbe}
+.radioBar-bMNUI- path {
+    d: path("M3 0C1.34326 0 0 1.34277 0 3V21C0 22.6572 1.34326 24 3 24H21C22.6567 24 24 22.6572 24 21V3C24 1.34277 22.6567 0 21 0H3ZM3 1C1.89551 1 1 1.89551 1 3V21C1 22.1045 1.89551 23 3 23H21C22.1045 23 23 22.1045 23 21V3C23 1.89551 22.1045 1 21 1H3Z");
+    fill: var(--checkbox-fill);
+}
+.item-26Dhrx[aria-checked="true"] .radioBar-bMNUI- path {
+    d: path("M4 1C2.34326 1 1 2.34277 1 4V20C1 21.6572 2.34326 23 4 23H20C21.6567 23 23 21.6572 23 20V4C23 2.34277 21.6567 1 20 1H4ZM6.62231 12L9.74976 15.127L17.6924 7.19238L18.7498 8.25L9.74976 17.25L5.55737 13.0576L6.62231 12Z");
+    fill: #fff
+}
+.radioBar-bMNUI- circle {display:none}
+.radioBar-bMNUI- {border:solid 1px var(--background-tertiary);background:var(--deprecated-card-editable-bg)}
+.radioBar-bMNUI- {--radio-bar-accent-color:#7289da}
+[aria-checked="true"]>.radioBar-bMNUI- {background:var(--radio-bar-accent-color);border-color:var(--radio-bar-accent-color)}
+[aria-checked="true"]>.radioBar-bMNUI- {--radio-bar-accent-color:#7289da}
+[aria-checked="false"]>.radioBar-bMNUI- .size14-e6ZScH {color:var(--interactive-normal)}
+[aria-checked="false"]>.radioBar-bMNUI-  {--radio-bar-accent-color:var(--interactive-active)}
+/** 778797785456574474 */
+
+/**
+ * Snippet from #css-snippets applied the Nov 25, 2020 at 6:32:16 PM
+ * Created by lav#5778 (441164156016787486)
+ * Snippet ID: 780301892529422336
+ */
+/* Fix folder color picker */
+.container-3sNMIc {
+  flex-wrap: inherit
+}
+/** 780301892529422336 */
+
+/**
+ * Snippet from #css-snippets applied the Nov 25, 2020 at 6:33:35 PM
+ * Created by Winston Sepruko#0441 (156990761366192128)
+ * Snippet ID: 781046227369984020
+ */
+path[d="M33 34.5833V7.49998H35V36.6666H9C6.791 36.6666 5 34.801 5 32.5V7.49998C5 5.19894 6.791 3.33331 9 3.33331H31V30.4166H9C7.8955 30.4166 7 31.3485 7 32.5C7 33.6515 7.8955 34.5833 9 34.5833H33ZM23.9718 9.99998L15.8889 17.9915L12.7086 14.8441L10 17.5058L15.8885 23.3333L26.6667 12.6669L23.9718 9.99998Z"] {
+    d:path('M5.88657 21C5.57547 21 5.3399 20.7189 5.39427 20.4126L6.00001 17H2.59511C2.28449 17 2.04905 16.7198 2.10259 16.4138L2.27759 15.4138C2.31946 15.1746 2.52722 15 2.77011 15H6.35001L7.41001 9H4.00511C3.69449 9 3.45905 8.71977 3.51259 8.41381L3.68759 7.41381C3.72946 7.17456 3.93722 7 4.18011 7H7.76001L8.39677 3.41262C8.43914 3.17391 8.64664 3 8.88907 3H9.87344C10.1845 3 10.4201 3.28107 10.3657 3.58738L9.76001 7H15.76L16.3968 3.41262C16.4391 3.17391 16.6466 3 16.8891 3H17.8734C18.1845 3 18.4201 3.28107 18.3657 3.58738L17.76 7H21.1649C21.4755 7 21.711 7.28023 21.6574 7.58619L21.4824 8.58619C21.4406 8.82544 21.2328 9 20.9899 9H17.41L16.35 15H19.7549C20.0655 15 20.301 15.2802 20.2474 15.5862L20.0724 16.5862C20.0306 16.8254 19.8228 17 19.5799 17H16L15.3632 20.5874C15.3209 20.8261 15.1134 21 14.8709 21H13.8866C13.5755 21 13.3399 20.7189 13.3943 20.4126L14 17H8.00001L7.36325 20.5874C7.32088 20.8261 7.11337 21 6.87094 21H5.88657ZM9.41045 9L8.35045 15H14.3504L15.4104 9H9.41045Z');
+    transform: scale(1.66666667);
+}
+/** 781046227369984020 */
+
+/**
+ * Snippet from #css-snippets applied the Dec 9, 2020 at 8:58:04 AM
+ * Created by Chromus#4761 (511758610720751626)
+ * Snippet ID: 783073417301721101
+ */
+.newMessagesBar-265mhP {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  border-radius: 50px;
+  margin-top: 5px;
+}
+/** 783073417301721101 */
+
+/**
+ * Snippet from #css-snippets applied the Dec 9, 2020 at 8:58:11 AM
+ * Created by Nyria#0001 (265924886461939712)
+ * Snippet ID: 781978049570144257
+ */
+/* Badges */
+.headerInfo-30uryT > .profileBadges-2vWUYb { display: flex; flex-wrap: wrap; }
+.headerInfo-30uryT > .profileBadges-2vWUYb > .profileBadgeWrapper-1rGSsp { padding-bottom: 7px; }
+/** 781978049570144257 */
+
+/**
+ * Snippet from #css-snippets applied the Dec 9, 2020 at 8:58:33 AM
+ * Created by yatsukiko#0320 (87551046955597824)
+ * Snippet ID: 783501185579089960
+ */
+.repliedMessage-VokQwo .username-1A8OIy{
+  color: #7289da !important;
+}
+/** 783501185579089960 */
+
+/**
+ * Snippet from #css-snippets applied the Dec 9, 2020 at 8:59:33 AM
+ * Created by MrTime#6969 (234464614996246529)
+ * Snippet ID: 783729434351894558
+ */
+.jumpToPresentBar-G1R9s6 {
+  background-color: rgba(0,0,0,0.2);
+  backdrop-filter: blur(5px);
+}
+/** 783729434351894558 */
+
+/**
+ * Snippet from #css-snippets applied the Dec 9, 2020 at 9:04:32 AM
+ * Created by Beef#3980 (257109471589957632)
+ * Snippet ID: 783796515595747408
+ */
+/* fix a dumb discord moment with uncentered text*/
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .title-2Vtl4y {
+  text-align: center !important;
+}
+/** 783796515595747408 */
+
+/**
+ * Snippet from #css-snippets applied the Dec 9, 2020 at 9:05:01 AM
+ * Created by Beef#3980 (257109471589957632)
+ * Snippet ID: 784112416015122446
+ */
+/* Fix another Discord Moment with the quick react menu */
+.button-F9qN4n[aria-label=":tm:"] .icon-QGKz8T {
+  padding-top: 60%;
+  padding-right: 2px;
+  text-align: center !important;
+  font-size: 36px !important;
+}
+/** 784112416015122446 */
