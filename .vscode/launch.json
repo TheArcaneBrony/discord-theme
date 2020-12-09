@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "PowerShell",
+            "type": "node",
             "name": "Commit and push",
             "request": "launch",
             "preLaunchTask": "cmp"
