@@ -480,10 +480,14 @@ winButton-iRh8-Z > svg {
 
 .members-1998pB {
    transition: transform var(--hover-animation-speed);
+   width: 300px;
 }
 
 .membersWrap-2h-GB4:hover .members-1998pB {
    transform: translateX(-250px); /* 190 */
+}
+.member-3-YXUe {
+    max-width: 300px;
 }
 
 .membersWrap-2h-GB4 .membersGroup-v9BXpm::after {
