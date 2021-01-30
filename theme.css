@@ -1163,3 +1163,134 @@ path[d="M33 34.5833V7.49998H35V36.6666H9C6.791 36.6666 5 34.801 5 32.5V7.49998C5
   font-size: 36px !important;
 }
 /** 784112416015122446 */
+
+/* Fix text in ping menu */
+
+.autocompleteRowHeading-3WOd1z {
+    font-weight: unset;
+    font-size: unset;
+}
+
+
+/**
+ * Snippet from #css-snippets applied the Jan 28, 2021 at 3:08:24 PM
+ * Created by Beef#3980 (257109471589957632)
+ * Snippet ID: 795671782773227552
+ */
+/* Sorry, but we couldn't find who asked to write this snippet */
+.emptyResultsText-3mouZA {
+    visibility: hidden;
+    font-size: 0px;
+  }
+  .emptyResultsText-3mouZA:after {
+    visibility: visible !important;
+    content: "We searched far and wide. Unfortunately, we couldn't find the person who asked.";
+    font-size: 16px;
+    font-weight: 500;
+  }
+  /** 795671782773227552 */
+  
+  /**
+   * Snippet from #css-snippets applied the Jan 28, 2021 at 3:08:29 PM
+   * Created by Mr. Foxtrot#5220 (430507939070083072)
+   * Snippet ID: 795698452100022373
+   */
+  /*Hide the original file size was too big text*/
+  .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .title-2Vtl4y {
+  font-size: 0px;
+  }
+  
+  /*Replace the text with the first half "That was" but no bold*/
+  .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .title-2Vtl4y:before {
+  content: 'That was';
+  font-size: 22px;
+  font-weight: normal;
+  }
+  
+  /*Add the second half with italics*/
+  .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .title-2Vtl4y:after {
+  content: ' fucking gay';
+  font-size: 22px;
+  font-style: italic;
+  }
+  
+  /*Hide the original file size limit text, also make the width a little smaller*/
+  .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .instructions-2Du9gG {
+  font-size: 0px;
+  width: 180px;
+  }
+  
+  /*Replace the text with the funny*/
+  .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .instructions-2Du9gG:after {
+  content: "Don't ever post that bullshit again you fucking degenerate";
+  font-size: 12px;
+  }
+  /** 795698452100022373 */
+  
+  /**
+   * Snippet from #css-snippets applied the Jan 28, 2021 at 3:09:04 PM
+   * Created by Gianology#9000 (491262066813042698)
+   * Snippet ID: 796367986281152534
+   */
+  .iconWrapper-2OrFZ1[aria-label="Update Ready!"] {
+    position: fixed;
+    right: 2px;
+    top: 80px;
+    background: var(--background-tertiary);
+    border-radius: 10px;
+    width: 300px;
+    height: 130px;
+    border-right: 5px solid #43B581;
+    transition: background 1s;
+  }
+  
+  .iconWrapper-2OrFZ1[aria-label="Update Ready!"]::before {
+    position: relative;
+    display: block;
+    content: "A discord update has been released.";
+    font-weight: 700;
+    top: 13px;
+    text-align: center;
+  }
+  
+  .iconWrapper-2OrFZ1[aria-label="Update Ready!"]::after {
+    position: relative;
+    display: block;
+    content: "It is recommended to install it now to receive brand new features & patches.";
+    top: 22px;
+    text-align: center;
+  }
+  
+  .iconWrapper-2OrFZ1[aria-label="Update Ready!"] > .icon-22AiRD {
+    position: fixed;
+    right: 148px;
+    top: 173px;
+  }
+  /** 796367986281152534 */
+  
+  /**
+   * Snippet from #css-snippets applied the Jan 28, 2021 at 3:11:37 PM
+   * Created by Juby210#0577 (324622488644616195)
+   * Snippet ID: 803907978226696213
+   */
+  .contentTitle-2tG_sM {
+      color: var(--text-muted);
+  }
+  .autocompleteRowContentPrimary-238PvP .colorInteractiveActive-3Ip9Eu {
+      font-weight: inherit;
+      font-size: 100%;
+  }
+  .autocompleteRowContentSecondary-1tgI-F {
+      font-size: 14px;
+      line-height: 18px;
+      color: var(--text-muted);
+  }
+  /** 803907978226696213 */
+  
+  /**
+   * Snippet from #css-snippets applied the Jan 30, 2021 at 3:13:02 AM
+   * Created by Nyria#3863 (265924886461939712)
+   * Snippet ID: 804473088708182036
+   */
+  .image-1GzsFd[style*='background-image: url("/assets/8c998f8fb62016fcfb4901e424ff378b.svg")'] { background-image: url('https://i.ibb.co/jrwMmqF/Wumpus.png') !important}
+  /** 804473088708182036 */
