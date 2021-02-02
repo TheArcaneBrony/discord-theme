@@ -1298,3 +1298,9 @@ path[d="M33 34.5833V7.49998H35V36.6666H9C6.791 36.6666 5 34.801 5 32.5V7.49998C5
    */
   .image-1GzsFd[style*='background-image: url("/assets/8c998f8fb62016fcfb4901e424ff378b.svg")'] { background-image: url('https://i.ibb.co/jrwMmqF/Wumpus.png') !important}
   /** 804473088708182036 */
+
+
+  /* fix code block width */ 
+  .markup-2BOw-j blockquote, .markup-2BOw-j pre {
+    max-width: 100%;
+}
